@@ -22,6 +22,7 @@ namespace Catalog.API.Data
                 configuration.GetValue<string>("DatabaseSettings:CollectionName")
             );
             
+            CatalogContextSeed.SeedData(Products);
         }
     }
 }
